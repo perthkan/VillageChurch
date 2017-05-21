@@ -25,7 +25,7 @@ public class VCAppFragmentPagerAdapter extends FragmentPagerAdapter {
 
     @Override
     public Fragment getItem(int position) {
-        FragmentUIAdapter fragmentUIAdapter = FragmentUIAdapterManager.getInstance().getFragmentIdentityBySequence(position);
+        FragmentUIAdapter fragmentUIAdapter = FragmentUIAdapterManager.getInstance().getFragmentUIAdapterBySequence(position);
 
         Class classOfFragment = fragmentUIAdapter.getFragmentClass();
         Constructor<Fragment>[] constructors = classOfFragment.getConstructors();

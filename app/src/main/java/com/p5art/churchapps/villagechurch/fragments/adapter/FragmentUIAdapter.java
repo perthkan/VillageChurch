@@ -2,10 +2,6 @@ package com.p5art.churchapps.villagechurch.fragments.adapter;
 
 import android.support.v4.app.Fragment;
 
-/**
- * Created by UN on 29/4/17.
- */
-
 public class FragmentUIAdapter {
     private Class<? extends Fragment> fragmentClass = null;
 

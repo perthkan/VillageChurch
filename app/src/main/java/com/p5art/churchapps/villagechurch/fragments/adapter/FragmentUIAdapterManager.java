@@ -35,7 +35,7 @@ public class FragmentUIAdapterManager {
         fragmentUIAdapterList.add(new FragmentUIAdapter(ContactUsFragment.class, sequence++, R.id.navigation_5));
     }
 
-    public FragmentUIAdapter getFragmentIdentityBySequence(int sequence) {
+    public FragmentUIAdapter getFragmentUIAdapterBySequence(int sequence) {
         for (FragmentUIAdapter fragmentUIAdapter : fragmentUIAdapterList) {
             if(fragmentUIAdapter.getSequence() == sequence){
                 return fragmentUIAdapter;
@@ -45,7 +45,7 @@ public class FragmentUIAdapterManager {
         return null;
     }
 
-    public FragmentUIAdapter getFragmentIdentityByNavigationId(int navigationItemId) {
+    public FragmentUIAdapter getFragmentUIAdapterByNavigationItemId(int navigationItemId) {
         for (FragmentUIAdapter fragmentUIAdapter : fragmentUIAdapterList) {
             if(fragmentUIAdapter.getNavigationItemId() == navigationItemId){
                 return fragmentUIAdapter;
