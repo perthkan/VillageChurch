@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Village Church</string>
+    <string name="talks">Talks</string>
+    <string name="calendar">Calendar</string>
+    <string name="prayer">Prayer</string>
+    <string name="studies">Studies</string>
+    <string name="more">More</string>
+    <string name="title_1">@string/talks</string>
+    <string name="title_2">@string/calendar</string>
+    <string name="title_3">@string/prayer</string>
+    <string name="title_4">@string/studies</string>
+    <string name="title_5">@string/more</string>
+</resources>
